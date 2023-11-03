@@ -229,6 +229,8 @@ padding: 12px 44px;
 .card_discription p{
     font-size: 14px;
     line-height: 1.46;
+    background: url('../img/calendar.svg') no-repeat;
+    padding-left: 25px;
 }
 .card_item{
     display: inline-block;
@@ -258,7 +260,6 @@ padding: 12px 44px;
 .bg_img6{
     background: url('../img/project6.jpg');
 }
-
 .test_bg1{
     display: inline-block;
     width: 600px;
