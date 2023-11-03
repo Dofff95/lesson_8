@@ -1,4 +1,6 @@
+@import url(/fonts/fonts.css);
 @import url(/css/reset.css);
+
 
 
 body{
@@ -72,7 +74,7 @@ body{
 }
 .more_btn {
 }
-a{
+.care_conteiner > a{
     color: #FFF;
     text-align: center;
     font-size: 18px;
@@ -89,22 +91,35 @@ a{
     color: #807D7E;
     font-family: Causten;
 }
-.euphoria_conteiner h2, h3{
+.euphoria_conteiner h2, h3, a{
     font-family: Core Sans C;
+}
+.background_e{
+    display: inline-block;
+    width: 6px;
+    height: 28px;
+    border-radius: 10px;
+    background: #8A33FD;
+    margin-right: 15px;
 }
 .euphoria_conteiner{
     margin: 0 auto;
     max-width: 1240px;
     padding-left: 21px;
+    font-size: 20px;
+    line-height: 1.675;
+    letter-spacing: 0.4px;
 }
 
 .euphoria_title {
+    display: inline-block;
     color: #3C4242;
     font-size: 28px;
     font-weight: 600;
     line-height: 1.2;
     letter-spacing: 0.56px;
     margin-bottom: 30px;
+    
 }
 .title_e_h3 {
     font-size: 20px;
@@ -114,11 +129,154 @@ a{
     margin-bottom: 25px;
 }
 .eupforia_text {
-    font-size: 20px;
-    line-height: 1.675;
-    letter-spacing: 0.4px;
+    
     margin-bottom: 20px;
 }
 .span {
     font-weight: 600;
+}
+.euphoria_conteiner > a{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.675;
+    letter-spacing: 0.4px;
+}
+
+
+.made_conteiner{
+    max-width: 1240px;
+    height: 640px;
+    margin: 0 auto;
+    background: url('/img/bge1.jpg') left no-repeat,
+                url('/img/bge2.jpg') right no-repeat;
+    padding: 183px 74px;
+}
+
+.made_text_conteiner{
+    color: #FFF;
+    max-width: 466px;
+    max-height: 282px;
+}
+.made_title_h2 {
+    font-family: Core Sans C;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 1.47;
+    letter-spacing: 0.208px;
+    margin-bottom: 30px;
+}
+.made_text {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+.shop_now {
+    color: #3C4242;
+text-align: center;
+font-size: 18px;
+font-weight: 600;
+border-radius: 8px;
+background: #FFF;
+padding: 12px 44px;
+}
+
+
+
+
+
+
+    .project_section {
+}
+.project_conteiner {
+    max-width: 1220px;
+    margin: 0 auto;
+    font-family: Inter;
+    color: #7D7D7D;
+}
+.discription {
+    text-align: center;
+    color: #37393F;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+.project_title{
+    color: #37393F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.21;
+    margin-bottom: 14px;
+}
+.project_text {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.46;
+    margin-bottom: 47px;
+}
+.card_discription h3{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.27;
+    margin-bottom: 10px;
+}
+.card_discription p{
+    font-size: 14px;
+    line-height: 1.46;
+}
+.card_item{
+    display: inline-block;
+    margin-right: 19px;
+    margin-bottom: 58px;
+}
+.bgimg{
+    width: 384px;
+    height: 501px;
+    margin-bottom: 24px;
+}
+.bg_img1{
+    background: url('/img/project1.jpg');
+    
+}
+.bg_img2{
+    background: url('/img/project2.jpg');
+}
+.bg_img3{
+    background: url('/img/project3.jpg');
+}
+.bg_img4{
+    background: url('/img/project4.jpg');
+}
+.bg_img5{
+    background: url('/img/project5.jpg');
+}
+.bg_img6{
+    background: url('/img/project6.jpg');
+}
+
+
+
+.test_bg1{
+    display: inline-block;
+    width: 600px;
+    height: 600px;
+    background-color: aquamarine;
+}
+.test_bg2{
+    display: inline-block;
+    width: 600px;
+    height: 600px;
+    background: linear-gradient(235deg, rgba(2,0,36,1) 0%, rgba(200,191,0,1) 26%, rgba(0,212,255,1) 100%);
+   
+}
+.test_3{
+     background-image: url('/img/img_400x300.jpg');
+    width: 1100px;
+    height: 600px;
+    background-repeat: no-repeat;
+    border: 1px solid #8A33FD;
+    background-position: 100px 80px;
 }
