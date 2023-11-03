@@ -157,7 +157,7 @@ body{
     max-width: 1240px;
     height: 640px;
     margin: 0 auto;
-    background: url('./img/bge1.jpg') left no-repeat,
+    background: url('../img/bge1.jpg') left no-repeat,
                 url('../img/bge2.jpg') right no-repeat;
     padding: 183px 74px;
 }
